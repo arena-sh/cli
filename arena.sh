@@ -101,7 +101,12 @@ viewdetails() {
         echo -ne "\n"
         case $REPLY in
          b) clear;view_results;break;;
-         v) python -mwebbrowser "$API_ENDPOINT/game/$game_id/";continue;;
+         v)
+             url_exec="python -mwebbrowser"
+             if [ "$OS" = "windows" ]; then
+                 url_exec="cygstart"
+             fi
+             eval "$url_exec '$API_ENDPOINT/game/$game_id/'";continue;;
          r)
            cmd_to_run="$game_cmd"
            #cmd_to_run="echo 'No such file'" #testing purposes only, this should still act like game exists as we only capture stderr below
