@@ -7,7 +7,7 @@ A CLI browser for open-source arena shooter games.
 ## Platforms and Games
 Tested to be working on MacOSX, Linux and Windows/Cygwin. For Cygwin, make sure to install all three packages below. 
 
-When a game is not found, user will be asked to download the official unified zip wherever available and "after installation notes" specific to the platform will be shown (for e.g. you need to install OpenAL-soft at Linux or place its dll files in Windows). 
+When a game is not found, user will be asked to download the official unified zip wherever available and "after installation notes" specific to the platform will be shown (for e.g. you need to install OpenAL-soft on Linux or place its dll files on Windows). 
 
 ### Supported Games
 
@@ -23,8 +23,8 @@ Currently, following games are tested to be working on all platforms:
 
 Requirements:
 
-- python2 or later
 - curl
+- python2 or later
 - unzip (optional)
 
 You can download the bash script as follows and start using:
@@ -52,7 +52,7 @@ QuakeWorld duel spot demonstration:
 <img src="https://media.giphy.com/media/xkF2OOpDN6AWotY2bP/giphy.gif" width="450">
 
 ## Usage
-Any string will search in server names and player. However, you can utilize filters and flags below to construct the search queries.
+Any string will search in server names and players. However, you can utilize filters and flags below to construct the search queries.
 
 ### Filters
 | filter | short-form | description | examples
@@ -76,7 +76,7 @@ If a launcher command fails to run, the official unified zip (for available game
 
 <img src="https://media.giphy.com/media/YVNq7mSCmm95yJ9Ham/giphy.gif" width="450">
 
-Downloaded games will be unzipped at `$HOME` for Linux, `/Applications` at MacOSX and `C:\games` for Windows. 
+Downloaded games will be unzipped at `$HOME` for Linux, `/Applications/games` at MacOSX and `C:\games` for Windows. 
 
 It's good idea to pay attention for the "after installation" notes followed by the `unzip`. They are also accessible at any game/server web page as well (press v to open). 
 
