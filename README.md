@@ -1,6 +1,6 @@
 ## arena.sh CLI
 
-<img src="https://media.giphy.com/media/EO7fp3wfl3HBIRySR8/giphy.gif" width="500">
+<img src="https://media.giphy.com/media/dyigcCeLILqfA6PqOV/giphy.gif" width="500">
 
 A CLI browser for open-source arena shooter games.
 
@@ -49,7 +49,7 @@ $ ./arena.sh p:sarge       # short-form
 
 QuakeWorld duel spot demonstration:
 
-<img src="https://media.giphy.com/media/xkF2OOpDN6AWotY2bP/giphy.gif" width="450">
+<img src="https://media.giphy.com/media/lSa4BBIzGrbpAtoWcX/giphy.gif" width="450">
 
 ## Usage
 Any string will search in server names and players. However, you can utilize filters and flags below to construct the search queries.
@@ -74,7 +74,7 @@ Any string will search in server names and players. However, you can utilize fil
 ## Auto Downloader (experimental)
 If a launcher command fails to run, the official unified zip (for available games only) will be asked to be downloaded:
 
-<img src="https://media.giphy.com/media/YVNq7mSCmm95yJ9Ham/giphy.gif" width="450">
+<img src="https://media.giphy.com/media/JQLxjOzAUgcB6O9M1I/giphy.gif" width="450">
 
 Downloaded games will be unzipped at `$HOME` for Linux, `/Applications/games` at MacOSX and `C:\games` for Windows. 
 
